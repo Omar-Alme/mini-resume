@@ -6,6 +6,22 @@
   background-color: #676767;
 }
 
+.menu-color-home {
+  background-color: #3f1d38;
+}
+
+.menu-color-resume {
+  background-color: #4d3c77;
+}
+
+.menu-color-contact {
+  background-color: #a2678a;
+}
+
+.menu-color-download {
+  background-color: #e19898;
+}
+
 /* -----------------------------------Heading */
 
 header {
