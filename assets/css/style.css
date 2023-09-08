@@ -10,6 +10,10 @@
   background-color: #ffffff;
 }
 
+.bg-color-personal {
+  background-color: #f4f4f4;
+}
+
 .menu-color-download {
   background-color: #3f1d38;
 }
@@ -25,6 +29,8 @@
 .menu-color-home {
   background-color: #e19898;
 }
+
+
 
 /* -----------------------------------Special margins/paddings/text */
 
