@@ -10,19 +10,19 @@
   background-color: #ffffff;
 }
 
-.menu-color-home {
+.menu-color-download {
   background-color: #3f1d38;
 }
 
-.menu-color-resume {
+.menu-color-contact {
   background-color: #4d3c77;
 }
 
-.menu-color-contact {
+.menu-color-resume {
   background-color: #a2678a;
 }
 
-.menu-color-download {
+.menu-color-home {
   background-color: #e19898;
 }
 
@@ -207,4 +207,14 @@ footer {
 
 #footer-details {
   padding: 20px;
+}
+
+/* -----------------------------------Reasons */
+.reasons-icon {
+  font-size: 26px;
+  color: #e19898;
+}
+
+.reasons-heading {
+  margin-bottom: 15px;
 }
