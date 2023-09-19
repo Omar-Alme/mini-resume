@@ -20,12 +20,12 @@
     (function () {
       emailjs.init("Fs4fVFtAxcoPbE6gL");
 
-      var templateParams = {
-        name: 'Nicole',
-        notes: 'The project that I want is...'
-      };
+      // var templateParams = {
+      //   name: 'Nicole',
+      //   notes: 'The project that I want is...'
+      // };
 
-      emailjs.send('gmail', 'omar', templateParams);
+      // emailjs.send('gmail', 'omar', templateParams);
     })();
   </script>
   <title>Omar</title>
@@ -84,9 +84,9 @@
         <h5 class="uppercase text-center">Let's Work together!</h5>
 
         <div class="center-form">
-          <form>
+          <form onsubmit="return sendMail(this);">
             <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
-            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
+            <input type="email" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email" required>
             <textarea name="projectsummary" id="projectsummary" rows="5" class="form-control"
               placeholder="Project Description" required></textarea>
             <div class="form-row text-center">
@@ -144,6 +144,8 @@
       </div>
     </div>
   </footer>
+  <script src="assets/js/sendEmail.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
   </script>
